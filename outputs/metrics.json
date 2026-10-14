@@ -1,0 +1,184 @@
+{
+  "churn": {
+    "roc_auc": 0.862,
+    "pr_auc": 0.553,
+    "churn_rate": 0.078,
+    "churners_caught_in_top_20pct": 0.753,
+    "train_snapshot": "2025-09-30",
+    "test_snapshot": "2025-12-31"
+  },
+  "churn_top_drivers": {
+    "recency_days": 0.1809,
+    "baskets_365d": 0.0145,
+    "spend_prev_90d": 0.0087,
+    "spend_180d": 0.007,
+    "spend_30d": 0.0058,
+    "spend_365d": 0.0057,
+    "share_dates_sweets": 0.0046,
+    "share_personal_care": 0.0022
+  },
+  "clv": {
+    "mae_aed": 913.5,
+    "baseline_mae_aed": 1022.3,
+    "spearman": 0.919,
+    "top10pct_value_captured": 0.371,
+    "baseline_top10pct_value_captured": 0.363,
+    "train_snapshot": "2025-06-30",
+    "test_snapshot": "2025-12-31"
+  },
+  "recommender": {
+    "customers_evaluated": 1507,
+    "hit_rate_at_5": 0.831,
+    "popularity_hit_rate_at_5": 0.646,
+    "lift_vs_popularity": 0.285
+  },
+  "campaign_average_effect_aed": 42.94,
+  "uplift_policies": [
+    {
+      "share_targeted": 1.0,
+      "incremental_spend_per_target_aed": 42.94,
+      "coupon_cost_per_target_aed": 10.92,
+      "incremental_profit_per_1000_members_aed": -184.0
+    },
+    {
+      "share_targeted": 0.5,
+      "incremental_spend_per_target_aed": 66.21,
+      "coupon_cost_per_target_aed": 12.44,
+      "incremental_profit_per_1000_members_aed": 2055.0
+    },
+    {
+      "share_targeted": 0.3,
+      "incremental_spend_per_target_aed": 91.5,
+      "coupon_cost_per_target_aed": 16.68,
+      "incremental_profit_per_1000_members_aed": 1860.0
+    },
+    {
+      "share_targeted": 0.2,
+      "incremental_spend_per_target_aed": 105.12,
+      "coupon_cost_per_target_aed": 17.41,
+      "incremental_profit_per_1000_members_aed": 1774.0
+    }
+  ],
+  "uplift_qini": [
+    {
+      "decile": 1,
+      "customers": 1917,
+      "observed_uplift_aed": 96.2
+    },
+    {
+      "decile": 2,
+      "customers": 1916,
+      "observed_uplift_aed": 116.7
+    },
+    {
+      "decile": 3,
+      "customers": 1916,
+      "observed_uplift_aed": 72.9
+    },
+    {
+      "decile": 4,
+      "customers": 1917,
+      "observed_uplift_aed": -17.9
+    },
+    {
+      "decile": 5,
+      "customers": 1916,
+      "observed_uplift_aed": 45.6
+    },
+    {
+      "decile": 6,
+      "customers": 1916,
+      "observed_uplift_aed": 9.2
+    },
+    {
+      "decile": 7,
+      "customers": 1917,
+      "observed_uplift_aed": -9.7
+    },
+    {
+      "decile": 8,
+      "customers": 1916,
+      "observed_uplift_aed": -3.5
+    },
+    {
+      "decile": 9,
+      "customers": 1916,
+      "observed_uplift_aed": -12.2
+    },
+    {
+      "decile": 10,
+      "customers": 1917,
+      "observed_uplift_aed": 34.7
+    }
+  ],
+  "predicted_uplift_by_true_persona": {
+    "Deal Seeker": 148.8,
+    "Young Professional": 37.9,
+    "Occasional Visitor": 0.8,
+    "Family Weekly Shopper": -8.0,
+    "Premium Gifter": -45.9
+  },
+  "segments": [
+    {
+      "segment": "Family Stock-up Shoppers",
+      "customers": 4897,
+      "avg_spend_365d": 14884.93,
+      "avg_baskets_365d": 53.348,
+      "avg_recency_days": 26.694,
+      "coupon_rate": 0.003,
+      "app_share": 0.195,
+      "share_of_sales": 0.629
+    },
+    {
+      "segment": "Convenience Regulars",
+      "customers": 2901,
+      "avg_spend_365d": 5846.577,
+      "avg_baskets_365d": 64.513,
+      "avg_recency_days": 53.739,
+      "coupon_rate": 0.002,
+      "app_share": 0.372,
+      "share_of_sales": 0.146
+    },
+    {
+      "segment": "Deal Seekers",
+      "customers": 3207,
+      "avg_spend_365d": 4335.043,
+      "avg_baskets_365d": 26.552,
+      "avg_recency_days": 56.162,
+      "coupon_rate": 0.008,
+      "app_share": 0.362,
+      "share_of_sales": 0.12
+    },
+    {
+      "segment": "Premium Gifters",
+      "customers": 1588,
+      "avg_spend_365d": 6857.498,
+      "avg_baskets_365d": 17.424,
+      "avg_recency_days": 49.312,
+      "coupon_rate": 0.006,
+      "app_share": 0.203,
+      "share_of_sales": 0.094
+    },
+    {
+      "segment": "Lapsed",
+      "customers": 6571,
+      "avg_spend_365d": 201.578,
+      "avg_baskets_365d": 2.158,
+      "avg_recency_days": 442.181,
+      "coupon_rate": 0.0,
+      "app_share": 0.26,
+      "share_of_sales": 0.011
+    },
+    {
+      "segment": "Never Purchased",
+      "customers": 836,
+      "avg_spend_365d": 0.0,
+      "avg_baskets_365d": 0.0,
+      "avg_recency_days": NaN,
+      "coupon_rate": 0.0,
+      "app_share": 0.0,
+      "share_of_sales": 0.0
+    }
+  ],
+  "runtime_s": 37
+}

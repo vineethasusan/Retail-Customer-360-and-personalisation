@@ -74,8 +74,8 @@ sleeping dog → *do not contact*; everyone else → *personalised recommendatio
 ## Quick start
 
 ```bash
-git clone https://github.com/vineethasusan/uae-retail-customer-360.git
-cd uae-retail-customer-360
+git clone https://github.com/vineethasusan/Retail-Customer-360-and-personalisation.git
+cd Retail-Customer-360-and-personalisation
 python -m venv .venv && source .venv/bin/activate
 make install
 make pipeline     # outputs/report.md, outputs/customer_scores.csv
@@ -97,7 +97,7 @@ make dashboard    # http://localhost:8501
 ## Project structure
 
 ```
-uae-retail-customer-360/
+Retail-Customer-360-and-personalisation/
 ├── src/cust360/
 │   ├── data.py        # synthetic loyalty data + randomised campaign
 │   ├── features.py    # snapshot features (no future leakage)
