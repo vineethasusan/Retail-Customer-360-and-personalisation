@@ -1,0 +1,15 @@
+[project]
+name = "uae-retail-customer-360"
+version = "1.0.0"
+description = "Customer segmentation, CLV, churn, recommendations and uplift modelling for UAE retail"
+authors = [{ name = "Vineetha Susan Alexander" }]
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
